@@ -33,7 +33,6 @@ body {
     height: calc(100vh - 60px);
 }
 .mainText {
-    aspect-ratio: auto 272/92;
     /* width: 272px;
     height: 92px; */
     font-size: 48px;

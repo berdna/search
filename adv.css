@@ -1,0 +1,70 @@
+/* CSS Reset */
+html, body {
+    height: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.nav {
+    width: 100vw;
+    height: 60px;
+    padding: 20px;
+}
+.nav .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+.nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+.main {
+    width: 100vw;
+    height: calc(100vh - 60px);
+}
+.main .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+}
+.main form {
+    margin: 20px;
+    padding: 20px;
+}
+.main form input {
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    padding: 5px;
+}
+.form-field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.mainText {
+    margin-left: 40px;
+
+}
+.submitBtn {
+    background-color: #4d90fe;
+    color: white;
+    cursor: pointer;
+}
+.submitBtn:hover {
+    background-color: #357ae8;
+}
